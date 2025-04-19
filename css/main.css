@@ -1,0 +1,69 @@
+section{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logoText p{
+    font-size: 11px;
+}
+
+.myNav{
+    background-color: #7E9790 ;
+}
+.Cloud{
+    color: #BAC1BA;
+    font-size: 42px;
+}
+
+nav ul li:hover{
+    border: #BAC1BA solid 2px;
+    border-radius: 50px;
+}
+nav ul li:hover nav a{
+    color: #5b615b !important;
+}
+
+input[type="text"] {
+    border-radius: 50px;
+    background: #7E9790;
+}
+.Search{
+    padding-top: 100px;
+}
+
+.header{
+    background: #7E9790 ;
+}
+.header p{
+    margin-bottom: 0;
+}
+.cardBody{
+    background-color:  #BAC1BA;
+}
+.cardBody h1 {
+    font-size: 72px;
+}
+.cardBody
+span{
+    color: #7E9790;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer{
+    background-color:#e2ebe3 ;
+}
+.links li i{
+    background-color: #BAC1BA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.links li i:hover{
+    background-color:#7E9790 ;
+    color: white;
+}

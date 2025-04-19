@@ -6,7 +6,7 @@ searchInput.addEventListener('input', function(){
 
 
 async function getWeather(term){
- let apiValue = await  fetch(`http://api.weatherapi.com/v1/forecast.json?key=ef768eaa22ba4a1ebc9214608251804&q=${term}&days=3`)
+ let apiValue = await  fetch(`https://api.weatherapi.com/v1/forecast.json?key=ef768eaa22ba4a1ebc9214608251804&q=${term}&days=3`)
  if (apiValue.ok == true ) {
     let data = await apiValue.json()
     display(data.forecast.forecastday , data.location)
